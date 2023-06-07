@@ -1,7 +1,6 @@
 const searchInput = document.getElementById('search');
 const results = document.getElementById('results');
 const searchButton = document.getElementById('button');
-const url = "http://api.giphy.com/v1/gifs/search" ;
 
 searchButton.addEventListener('click', searGIFs);
 
